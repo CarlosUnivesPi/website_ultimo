@@ -1,0 +1,18 @@
+/* Barra de navegação */
+header, .navbar {
+    background-color: midnightblue;
+  }
+
+.img{
+  justify-content:flex-start;
+  justify-content: flex-end;
+  justify-content: left;
+  justify-content: right;
+  justify-content: stretch;
+}
+.img{
+  align-items:stretch; 
+
+}
+
+  

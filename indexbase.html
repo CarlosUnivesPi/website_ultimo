@@ -1,0 +1,369 @@
+{% load static%}
+
+<!doctype html>
+<html lang="pt-BR">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><!---->
+    <link rel="shortcut icon" href="/templates/imagens_cards/favicon.ico" type="image/x-icon">
+      <title>Apoio às ONGs Protetoras dos Animais</title>
+      <link rel="stylesheet" href='{%css "style.css"%}'>
+      
+
+  </head>
+  <body data-spy="scroll" data-target="#navbarResponsive" style= "background-color:rgb(252, 252, 174)">
+   
+   
+
+    <script src="/js/scripts.js"></script>
+    <nav class="navbar col-12 m-auto position-fixed  p-1 navbar-expand-lg navbar-dark bg-primary" style="z-index:999;">
+      <nav class="navbar navbar-light bg-primary">
+        <div class="container-fluid">
+          <img src="/imagens_cards/favicon.ico" alt=""/>
+          <!--<span class="navbar-text">
+            Navbar text with an inline element
+          </span>-->
+        </div>
+      </nav>
+              
+      <div class="container" id="nav-container">
+        <!-- add essa class -->
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" src="/templates/imagens_cards/favicon-32x32.png" alt="Apoie uma ONG"> SOS ONGs Protetoras dos Animais
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end  bg-primary" id="navbar-links">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" id="home-menu" href="...">PROJETO</span></a>
+              <a class="nav-item nav-link" id="about-menu" href="#">Historia</a>
+              <a class="nav-item nav-link" id="services-menu" href="#">Seja Voluntario</a>
+              <a class="nav-item  nav-link" id="team-menu" href="#">Como Doar</a>
+              <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cadastre-se
+                </a>
+              
+                <ul class="dropdown-menu" aria-labelledby="Cadastre-se">
+                  <li><a class="dropdown-item" href="/usuarios/templates/cadastro.html">Cadastre-se</a></li>
+                  <li><a class="dropdown-item" href="/usuarios/templates/login.html">Login</a></li>
+                  
+                </ul>
+              </div>
+              
+              
+            </div>
+          </div>
+        </nav>
+      </div>
+              
+          </div>
+        </div>
+      </nav>
+      <br><br><br><br><br>
+      <br><br><br>
+      <div class= "col-10 m-auto" >
+        <h1 class="text-center" >SOS PROJETO DE APOIO ÀS ONGs PROTETORAS DOS ANIMAIS</h1><br><br>
+        <p class="text-center">
+          <p>
+      
+
+    <div class = "container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-interval="7000">
+        
+      
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <!--</div>-->
+        <div class="carousel-inner" style="height: 60em;">
+        
+          <div class="carousel-item active">
+            <img src="/templates/imagem_carousel/babies_cats.jpg" class="d-block w-100" alt="SEJA BEM - VINDO"> <!--add img-->
+            <div class="carousel-caption d-none d-md-block">  
+             <h1>SEJA BEM VINDO</h1>
+              <h2>Projeto social de Apoio às ONGs Protetoras dos Animais.</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/templates/imagem_carousel/carinho1.jpg" class="d-block w-100"  alt="ADOTE UM AMIGO">   <!--class="img-fluid"-->
+            <div class="carousel-caption d-none d-md-block"> 
+             <h1>ADOTE UM AMIGO</h1>
+              <h2>Campanha adote um animalzinho, eles precisam de amor e carinho.</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            
+            <img src="/templates/imagem_carousel/cão_e_gato.jpg" class="d-block w-100" alt="APOIE UMA ONG"> <!--foi copiado e colado-->
+            <div class="carousel-caption d-none d-md-block" style="color: black; " > 
+             <h1>APOIE UMA ONG</h1> 
+              <h2>Doe ração, casinhas, roupinhas, camedourous e artigos de higiene e limpeza.</h2>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div> 
+          
+      <div id="about-area">
+        <div class="container">
+            <div class="row">
+              <div class="col-12"> 
+                <h1 class="main-title">Sobre o Projeto de Apoio às ONGS Protetoras dos Animais</h1> 
+              </div><br><br><br><br><br><br>
+              <div class="col-md-6 ">
+                <figure class="figure">
+                <img class="img-fluid" src="/templates/imagens_cards/hi-five-cat.jpg" alt="Projeto">
+                 <figcaption class="figure-caption"></figcaption>
+                
+              </div>
+              <div class="col-md-6" style="font-family:'PT Serif', serif; font-size:x-large; font-style:oblique;"><br><br><br>
+                <h2 class="about-title">Doações às ONGs</h2><br><br>
+                <p>As ONGs Protetoras dos animais há anos vêm realizando um trabalho que por muitas pessoas ainda é desconhecido.</p>
+                <p>As mesmas resgatam animais de rua, ou em situação de maus tratos que demandam muitas vezes assistência médico-veterinária,
+                  castração e o acolhimento dos mesmos até que estejam aptos à adoção. </p>
+                  <p>Essa assistência também demanda recursos, pois para manter o animal em conforto e segurânça, as ONGs despendem de um 
+                    gasto que muitas vezes não possuem condições de disporem.</p>               
+
+
+                <p>Devido a alta demanda dos animais que as mesmas abrigam, as ONGs precisam de doações.</p>
+                <p>Doação de quaisquer itens que que você possa disponibilizar às ONGs que acolhem os animais de rua.</p>
+                <p>E nosso projeto visa fomentar essas doações conscientizando a população sobre o assunto.</p>
+                
+                </ul>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <br> <br> <br><br> <br> 
+      
+      
+       <div class= "col-10 m-auto" >
+        <h1 class="text-center" >Saiba o Que as ONGs Precisam</h1><br><br>
+        <p class="text-center">
+          <p>
+
+      <div class="row row-cols-sm-4 row-cols-md-3 g-md-3 col-8 m-auto ">
+        
+        <div class="col">
+          <div class="col-12">                         
+            </div>             
+              
+          <div class="card"> 
+            <img src="/templates/imagens_cards/ração.jpg" class="card-fluid" alt="...">
+            <div class="card-body">
+              <br><br>
+              <h2 class="card-title">Doe Ração</h2>
+              <p class="card-text" text-center>Colabore doando ração. As ONGs possuem vários animais em seus abrigos, assim
+                 como em lares temporários e sua demanda por ração é grande, isso sem contar que com o advento da pandemia as doações 
+                 caíram significativamente. Muitas famílias recorrem às ONGs pedindo ajuda, pois não têm recursos para comprar ração para
+                  seus animais.Contudo o alcance dessas entidades é limitado.</p>
+                
+                 
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" >
+            <img src="/templates/imagens_cards/casinhas.webp" class="card-fluid" alt="...">
+            <div class="card-body">
+              <br><br>
+              <h2 class="card-title">Doe Casinhas</h2>
+              <br>
+              <p class="card-text">Qualquer ajuda é bem-vinda.Se você possui uma casinha,caminha ou mantas usadas e quiser doar 
+                esses materiais são usados tanto nesses abrigos e lares temporários como também em assistência a cães comunitários.</p>
+                <br><br><br>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/templates/imagens_cards/acessorios.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <br>
+              <h2 class="card-title">Doe Acessórios</h2>
+              <br><br>
+              <p class="card-text">Doe também brinquedos e acessórios usados como comedouros, bebedouros, coleiras e guias, 
+                nunca nos lembramos de como nossos amiguinhos 
+                gostam de brincar também, é um ótimo passatempo que os deixa muito felizes.
+                Você també pode contribuir doando toalhas novas ou usadas, e shampoos ou sabonetes de uso veterinário próprio
+                para animais.</p>
+                <br><br><br>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/templates/imagens_cards/veterinario.jpeg" class="card-img-top" alt="..." height="450">
+            <div class="card-body">
+              <br>
+              <h2 class="card-title">Ajuda financeira ou Voluntária</h2>
+              
+              <p class="card-text">Algumas entidades possuem atendimento veterinário gratuito ou com um preço bem abaixo do 
+                mercado.Contudo medicamentos e insumos são custosos para serem mantidos assim como materiais para coletas de 
+                exames. Essas ONGs precisam de ajuda financeira e medicamentos que não serão mais usados pelos seus animais.
+              </p>
+              <br>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/templates/imagens_cards/roupinhas.jpg" class="card-img-top" alt="...">
+            <div class="card-body">        
+              <br>
+              <h2 class="card-title">Doe Roupinhas</h2>
+              <br>
+              <p class="card-text">Aqueça seu coração doando roupinhas novas ou usadas que talvez você não queira mais usar em seus
+                animais também são de grande ajuda para os nosssos amiguinhos em dias muito frios .</p>
+                <br>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/templates/imagens_cards/hi-five-dog.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <br>
+              <h2 class="card-title">Seja Voluntário</h2>
+              <br>
+              <p class="card-text">Seja um lar temporário você também.Caso tenha disponibilidade de espaço e tempo abrigue um
+                amigo temporariamente até que o mesmo seja encaminhado a um lar adotante!
+
+              </p>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+        <br>
+        <br>
+            
+
+      <div class= "col-10 m-auto" style="color: navy; font-family:'PT Serif', serif; font-size:x-large;">
+      
+      </style>
+        <h3 class="text-center" >PROJETO</h3><br><br>
+        <p class="text-center">
+          <p>
+            Na cidade de Sorocaba há um grande número de entidades e cuidadores independentes que atuam 
+          oferecendo assistência voluntária e pro bono a animais em situação de vulnerabilidade. <br> 
+            Essas entidades são vitais para ampliar o alcance do poder público em resgatar animais vítimas de maus tratos 
+            e garantir a dignidade da 
+           população animal de Sorocaba. Cada entidade tem um foco e um modus operandi, contudo, a maioria depende fortemente 
+           de doações e voluntários para existir. Pesquisas demonstraram a necessidade da existência de um cadastro público 
+           unificado dessas entidades para que a população possa ter acesso simplificado, encontrando, de forma padronizada,
+            os serviços oferecidos, as oportunidades de voluntariado e as formas de doar e contribuir.              
+          
+
+          </p>  
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <hr>
+      <div class= "col-11 m-auto" style="color: navy; font-family:'PT Serif', serif;font-size:x-large;">
+        <h3 class="text-center"> HISTÓRIA</h3> <br><br>
+      <p class="text-center text-md-start">
+        Este projeto busca solucionar a questão central de como desenvolver um banco de 
+        dados website para cadastrar de forma padronizada as ONGs e protetores indepe ndentes
+        que atuam na cidade de Sorocaba cuidando de animais vulneráveis.
+
+         O objetivo é desenhar uma solução técnica que possa aproximar a população interessada em contribuir com a causa dos animais 
+        das entidades que necessitam de doações e voluntários, também simplificando o acesso do próprio poder público a essas entidades
+        para eventuais parcerias e contribuições.
+
+        Como Sorocaba é uma das cinquenta maiores cidades do país em termos de população também tem muitas ONGs, que atuam em áreas 
+        e serviços distintos. Diante disso se faz útil para os cidadãos a existência de um cadastro unificado, que aumenta a visibilidade
+        para as instituições e inspira maior confiabilidade para os interessados em contribuir. 
+
+
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      
+      <hr>
+      <div class= "col-11 m-auto" style="color: navy; font-family:'PT Serif', serif;font-size:x-large;">
+        <h3 class="text-center"> VOLUNTARIADO</h3><br><br>
+        
+      <p class="text-center" class="fs-3">
+        
+        Seja um voluntário. As ONGs necessitam tanto de voluntários para trabalhar em suas instalações como de pessoas que sejam 
+        voluntárias para abrigar temporariamente um animalzinho vítima do abandono e reagatado. 
+        O número de animais abandonados cresce drásticamente. Abandonos cruéis em rodovias, zonas de mata, ou trancados dentro 
+        de imóveis abandonado à própria sorte.
+        As ONGs por vezes acabam não dando conta do número de animais resgatados, além do poder público que também é limitado em suas
+        ações, essas entidades contam com parcerias de voluntários que abrigam temporariamente um animalzinho até que o mesmo vá 
+        para um lar adotivo.
+
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <hr>
+      
+      <div class= "col-11 m-auto" style="color: navy; font-family:'PT Serif', serif;font-size:x-large;">
+        <h3 class="text-center" font-size= "x-large"> COMO DOAR</h3><br><br>
+      <p class="text-center">
+        Para fazer doações às ONGs Protetoras Defensoras da causa animal, basta pesquisar em redes sociais, muitas possuem perfil
+        onde divulgam seus trabalhos, fotos dos animaiszinhos resgatados vítimas de abando ou maus tratos que estão disponíveis
+        para adoção e projetos como feiras de adoção.
+        Algumas entidades possuem websites com seus respectivos endereços e contatos via e-mail, telefone ou pelas próprias redes
+        sociais.
+        As entidades precisam de toda e qualquer ajuda como comedouros e bebedouros, caminhas, casinhas, roupinhas, ração.
+
+      </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+      </div>
+
+      <footer>
+        <div >
+          <P class="text-center" style="color: black; font-size:x-large ;">  DIGA NÃO AO ABANDONO DE ANIMAIS. DENUNCIE!
+
+          </P>
+          
+        </div>
+      </footer>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
